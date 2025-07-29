@@ -1,0 +1,180 @@
+{
+  "greeting": "mabuhay!",
+  "introduction": "I'm a web developer from the Philippines with a strong foundation in software engineering, honed at WMSU. Whether it’s frontend or backend, I build efficient, scalable, and well-structured applications. When I’m not coding, you’ll probably find me gaming to unwind. Let’s connect — whether to play or bring your billion-dollar idea to life! 😉",
+  "personal": {
+    "firstName": "rafael",
+    "middleName": "labrado",
+    "lastName": "pizarro",
+    "city": "zamboanga city",
+    "country": "philippines",
+    "zipCode": "7000",
+    "courses": {
+      "bsit": {
+        "abbreviation": "bsit",
+        "name": "bachelor of science in information technology"
+      }
+    },
+    "universities": {
+      "wmsu": {
+        "abbreviation": "wmsu",
+        "name": "western mindanao state university",
+        "portal": "https://wmsu.edu.ph/"
+      }
+    }
+  },
+  "skills": [
+    {
+      "name": "nextjs",
+      "logoLink": "https://cdn.simpleicons.org/next.js",
+      "homeLink": "https://nextjs.org/"
+    },
+    {
+      "name": "nodejs",
+      "logoLink": "https://cdn.simpleicons.org/node.js",
+      "homeLink": "https://nodejs.org/en"
+    },
+    {
+      "name": "laravel",
+      "logoLink": "https://cdn.simpleicons.org/laravel",
+      "homeLink": "https://laravel.com/"
+    },
+    {
+      "name": "php",
+      "logoLink": "https://cdn.simpleicons.org/php",
+      "homeLink": "https://www.php.net/"
+    },
+    {
+      "name": "react",
+      "logoLink": "https://cdn.simpleicons.org/react",
+      "homeLink": "https://react.dev/"
+    },
+    {
+      "name": "tailwindcss",
+      "logoLink": "https://cdn.simpleicons.org/tailwindcss",
+      "homeLink": "https://tailwindcss.com/"
+    },
+    {
+      "name": "postgresql",
+      "logoLink": "https://cdn.simpleicons.org/postgresql",
+      "homeLink": "https://www.postgresql.org/"
+    },
+    {
+      "name": "mysql",
+      "logoLink": "https://cdn.simpleicons.org/mysql",
+      "homeLink": "https://www.mysql.com/"
+    },
+    {
+      "name": "sqlite",
+      "logoLink": "https://cdn.simpleicons.org/sqlite",
+      "homeLink": "https://sqlite.org/index.html"
+    },
+    {
+      "name": "typescript",
+      "logoLink": "https://cdn.simpleicons.org/typescript",
+      "homeLink": "https://www.typescriptlang.org/"
+    },
+    {
+      "name": "javascript",
+      "logoLink": "https://cdn.simpleicons.org/javascript",
+      "homeLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+      "name": "css",
+      "logoLink": "https://cdn.simpleicons.org/css",
+      "homeLink": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "name": "html5",
+      "logoLink": "https://cdn.simpleicons.org/html5",
+      "homeLink": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    }
+  ],
+  "resume_link": "https://drive.google.com/file/d/1l5cWA5pIn6QmNBN685SpV1m_KXzX5AJB/view?usp=drive_link",
+  "cv_link": "https://drive.google.com/file/d/1l5cWA5pIn6QmNBN685SpV1m_KXzX5AJB/view?usp=drive_link",
+  "socials": {
+    "facebook": "https://www.facebook.com/elrapiz0",
+    "x": "https://www.x.com/hirang__",
+    "linkedin": "https://www.linkedin.com/in/elrapiz/",
+    "github": "https://www.github.com/Elrapiz",
+    "discord": "https://www.discordapp.com/users/hirang#8990"
+  },
+  "experimentingTechnologies": [
+    "shadcn",
+    "nextJS",
+    "bun",
+    "hono",
+    "better-auth",
+    "postgresql",
+    "drizzleORM",
+    "neon tech",
+    "vercel",
+    "render"
+  ],
+  "experience": [
+    {
+      "company": "united general alumni association inc.",
+      "companyInfo": "western mindanao state university",
+      "companyLogo": "/ugaai-logo.png",
+      "date": "Feb. 2025 - May. 2025",
+      "position": "full-stack web developer (intern)",
+      "details": "Developed a CMS website for the Western Mindanao State University Alumni Organization, integrating a rich text editor and a multimedia management system supporting various media types."
+    },
+    {
+      "company": "capstone",
+      "companyInfo": "western mindanao state university",
+      "companyLogo": "/wmsu-logo.png",
+      "date": "Aug. 2024 - Jan. 2025",
+      "position": "full-stack web developer",
+      "details": "Developed a capstone project titled “Web-Based Platform for Award Applications: Enhancing Accessibility and Efficiency in Higher Education,” which focused on streamlining the management of academic and non-academic awards at the university."
+    }
+  ],
+  "projects": {
+    "todo": {
+      "name": "CRUD: TODO",
+      "description": "A remake of our college's react weekly project (originally built using: react, tailwindcss)",
+      "techStack": "nextjs, better-auth, tailwindcss, postgresql, supabase (DB deployment & storage)",
+      "production": "https://www.gooogle.com",
+      "github": "https://www.github.com/Elrapiz/todo"
+    }
+  },
+  "workspaces": {
+    "ugaai": {
+      "projectName": "CMS Web Application",
+      "organization": "united general alumni association inc.",
+      "organizationLogo": "",
+      "date": "Feb. 2025 - May. 2025",
+      "position": "full-stack developer",
+      "details": "Developed a CMS website for the western mindanao state university alumni organization."
+    },
+    "anac": {
+      "projectName": "Web-based platform for award application, enhancing accessibility and efficiency in higher education",
+      "organization": "western mindanao state university",
+      "organizationLogo": "",
+      "date": "Aug. 2024 - Jan. 2025",
+      "position": "full-stack developer",
+      "details": "Developed a CMS website for the western mindanao state university alumni organization."
+    },
+    "ccsAdvisingSystem": {},
+    "seedVerse": {},
+    "grandy": {},
+    "purr": {}
+  },
+  "credits": [
+    {
+      "label": "Banner design",
+      "link": "https://www.vecteezy.com/vector-art/530854-low-poly-banner-design"
+    },
+    {
+      "label": "Hi GIF",
+      "link": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzFrbTAwbXQ1MjNhcWQxN2d1bGg0N3JhZHQ1NmZwdGttb2kybjZxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7TKGAJ7CLp95cNI4/giphy.gif"
+    },
+    {
+      "label": "ATOM design inspiration",
+      "link": "https://atom.redpixelthemes.com/"
+    },
+    {
+      "label": "Design inspiration 2",
+      "link": "https://vatsalsinghkv.vercel.app/"
+    }
+  ]
+}
