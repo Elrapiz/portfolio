@@ -15,12 +15,12 @@ export default function Experience() {
           {
             experience.map((exp, idx) => {
               return (
-                <li key={idx} className="p-8 bg-white rounded-lg border border-gray-300 dark:bg-gray-800 dark:border-gray-700">
+                <li key={idx} className="p-8 bg-white rounded-lg border border-gray-300">
                   <div className="flex items-center flex-col gap-2 sm:flex-row">
                     <Image width={480} height={480} src={exp.companyLogo} alt={"Company Logo"} className="max-w-20 aspect-square grayscale" />
                     <div>
-                      <h4 className="text-xl text-center font-bold uppercase text-gray-600 dark:text-gray-300 sm:text-start">{ exp.company }</h4>
-                      <p className="text-center text-gray-600 dark:text-gray-300 capitalize sm:text-start">{ exp.companyInfo }</p>
+                      <h4 className="text-xl text-center font-bold uppercase text-gray-600 sm:text-start">{ exp.company }</h4>
+                      <p className="text-center text-gray-600 capitalize sm:text-start">{ exp.companyInfo }</p>
                     </div>
                   </div>
                   <p className="my-2">{ exp.date }</p>
