@@ -137,28 +137,6 @@
       "github": "https://www.github.com/Elrapiz/todo"
     }
   },
-  "workspaces": {
-    "ugaai": {
-      "projectName": "CMS Web Application",
-      "organization": "united general alumni association inc.",
-      "organizationLogo": "",
-      "date": "Feb. 2025 - May. 2025",
-      "position": "full-stack developer",
-      "details": "Developed a CMS website for the western mindanao state university alumni organization."
-    },
-    "anac": {
-      "projectName": "Web-based platform for award application, enhancing accessibility and efficiency in higher education",
-      "organization": "western mindanao state university",
-      "organizationLogo": "",
-      "date": "Aug. 2024 - Jan. 2025",
-      "position": "full-stack developer",
-      "details": "Developed a CMS website for the western mindanao state university alumni organization."
-    },
-    "ccsAdvisingSystem": {},
-    "seedVerse": {},
-    "grandy": {},
-    "purr": {}
-  },
   "credits": [
     {
       "label": "Banner design",
