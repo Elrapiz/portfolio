@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -22,16 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
-      <body className={`text-slate-900 bg-gray-50 ${figtree.className} antialiased dark:text-gray-50 dark:bg-gray-900`}>
-        <ThemeProvider
-          attribute={"class"}
-          defaultTheme={"system"}
-          enableSystem
-        >
-          <Navbar />
-          {children}
-          <Footer />
-        </ThemeProvider>
+      <body className={`text-slate-900 bg-gray-50 ${figtree.className} antialiased`}>
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );
