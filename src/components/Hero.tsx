@@ -28,7 +28,7 @@ export default function Hero() {
             <h1 className="mb-4 text-5xl"><span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-500 capitalize">{data.greeting}</span> I am <span className="capitalize">{me.firstName} {me.middleName} {me.lastName}</span></h1>
 
             <div className="mb-8 flex items-center gap-4 flex-wrap">
-              <p className="uppercase text-xl">let's connect</p>
+              <p className="uppercase text-xl">let&apos;s connect</p>
 
               <LuChevronsRight className="w-6 h-6 text-sky-600" />
 
