@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-gray-50 to-transparent"></div>
 
       <Container className="relative z-10">
-        <div className="min-h-svh grid grid-cols-1 place-items-center md:grid-cols-2">
+        <div className="min-h-svh flex flex-col items-center justify-center gap-6 sm:flex-row">
           <div className="w-max h-max p-2 bg-white flex items-center justify-center rounded-full shadow-lg">
             <Image
               width={224}
@@ -25,9 +25,9 @@ export default function Hero() {
             />
           </div>
           <div className="h-max">
-            <h1 className="mb-4 text-5xl"><span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-500 capitalize">{data.greeting}</span> I am <span className="capitalize">{me.firstName} {me.middleName} {me.lastName}</span></h1>
+            <h1 className="mb-4 text-5xl text-center sm:text-start"><span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-500 capitalize">{data.greeting}</span> I am <span className="capitalize">{me.firstName} {me.middleName} {me.lastName}</span></h1>
 
-            <div className="mb-8 flex items-center gap-4 flex-wrap">
+            <div className="mb-8 flex items-center justify-center gap-4 flex-wrap sm:justify-start">
               <p className="uppercase text-xl">let&apos;s connect</p>
 
               <LuChevronsRight className="w-6 h-6 text-sky-600" />
@@ -42,9 +42,10 @@ export default function Hero() {
               </ul>
             </div>
 
-            <Link href={data.cv_link} className="me-4 px-4 py-2 text-nowrap border text-sky-600 border-sky-600 rounded-lg hover:bg-sky-100">Curriculum vitae</Link>
-            <Link href={data.cv_link} className="px-4 py-2 border text-sky-600 border-sky-600 rounded-lg hover:bg-sky-100">Résumé</Link>
-
+            <div className="text-center sm:text-start">
+              <Link href={data.cv_link} className="me-4 px-4 py-2 text-nowrap border text-sky-600 border-sky-600 rounded-lg hover:bg-sky-100">Curriculum vitae</Link>
+              <Link href={data.cv_link} className="px-4 py-2 border text-sky-600 border-sky-600 rounded-lg hover:bg-sky-100">Résumé</Link>
+            </div>
           </div>
         </div>
       </Container>
